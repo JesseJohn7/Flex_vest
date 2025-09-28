@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       {/* Logo */}
-      <div className="logo">FlexPage</div>
+      <div className="logo">Flex<span className='vest'>vest</span></div>
 
       {/* Hamburger Icon (mobile) */}
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
@@ -18,16 +18,20 @@ const Navbar = () => {
 
       {/* Links */}
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
-        <li><a href="#about">About</a></li>
-        <li><a href="#faqs">FAQs</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#faqs">About</a></li>
+        <li><a href="#services">Features</a></li>
+        <li><a href="#contact">Faqs</a></li>
+        <li><a href="#footer">Contact</a></li>
+         <li className="mobile-btn">
+          <button className="nav-btn">Connect Wallet</button>
+        </li>
       </ul>
 
       {/* Button */}
-      <button className="nav-btn">Get Started</button>
+      <button className="nav-btn">Connect Wallet</button>
     </nav>
   );
-};
+}
+
 
 export default Navbar;
