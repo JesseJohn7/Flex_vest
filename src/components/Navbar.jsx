@@ -18,10 +18,12 @@ const Navbar = () => {
 
       {/* Links */}
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
-        <li><a href="#faqs">About</a></li>
-        <li><a href="#services">Features</a></li>
-        <li><a href="#contact">Faqs</a></li>
-        <li><a href="#footer">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How it Works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faqs">Faqs</a></li>
+        <li><a href="#team">Team</a></li>
          <li className="mobile-btn">
           <button className="nav-btn">Connect Wallet</button>
         </li>

@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   const [rate, setRate] = useState(null);
@@ -19,7 +21,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       {/* Left Text Section */}
       <div className="hero-text">
         <h1>Protect Your Savings with Stability</h1>
@@ -27,7 +29,20 @@ const Hero = () => {
           Inflation and volatility can eat into your Naira savings. Switch to
           USDC and secure your money with stable value.
         </p>
-        <button className="cta-btn">Start Saving Now</button>
+        <motion.button
+          className="cta-btn flex items-center gap-2"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          Start Saving Now
+          <motion.span
+            animate={{ x: [0, 6, 0] }} // move right and back
+            transition={{ repeat: Infinity, duration: 1.2 }}
+          >
+          <ArrowRight size={20} />
+        </motion.span>
+      </motion.button>
+
       </div>
 
       {/* Right Exchange Card */}
