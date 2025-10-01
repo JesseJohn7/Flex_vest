@@ -486,6 +486,7 @@ body {
   .cta-card {
     flex-direction: column;
     text-align: center;
+    padding: 2rem 2rem;
   }
 
   .cta-logo img {
@@ -493,14 +494,14 @@ body {
     max-width: 50px;
   }
   
- cta-buttons {
+.cta-buttons {
   display: flex;
   gap: 1rem;
 }
 
 .btn {
   text-decoration: none;
-  padding: 0.9rem 0.9rem;
+  padding: 0.7rem 2.3rem;
   font-weight: 500;
   transition: all 0.3s ease;
 }
@@ -524,7 +525,7 @@ body {
 .subtitle {
   font-size: 1.1rem;
   margin-bottom: 2.5rem;
-  color: #555;
+  color: #010101;
 }
 
 /* Step Nav (top numbers) */
@@ -545,7 +546,7 @@ body {
   height: 42px;
   border-radius: 50%;
   background: #eee;
-  color: #555;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -556,7 +557,7 @@ body {
 
 .step-circle.active {
   background: linear-gradient(135deg, #4a00e0, #8e2de2);
-  color: #fff;
+  color: #000000;
 }
 
 .step-line {
@@ -603,7 +604,7 @@ body {
 }
 
 .step-card p {
-  color: #555;
+  color: #000000;
   font-size: 0.95rem;
   margin-bottom: 1rem;
 }
