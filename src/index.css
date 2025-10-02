@@ -32,13 +32,13 @@ body {
   list-style: none;
   display: flex;
   gap: 2rem;
-  background-color: #009437;
+
   padding: 0.5rem 2rem;
   border-radius: 10px;
 }
 
 .nav-links li a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
@@ -93,7 +93,7 @@ body {
     top: 70px;
     left: -100%;
     flex-direction: column;
-    background: #292727;
+    background: #ffffff;
     width: 100%;
     text-align: center;
     transition: left 0.3s ease-in-out;
@@ -151,7 +151,7 @@ body {
   margin-bottom: 2rem;
 }
 .cta-btn {
-  background: linear-gradient(to right,  #3b82f6, #8b5cf6);
+  background:  linear-gradient(135deg, #3b82f6, #8b5cf6);
   color: #fff;
   border: none;
   padding: 0.9rem 1.8rem;
@@ -162,7 +162,7 @@ body {
 }
 .cta-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(29, 78, 216, 0.4);
+  
 }
 
 /* Card Styling */
@@ -175,7 +175,7 @@ body {
   overflow: hidden;
 }
 .card-header {
-  background: linear-gradient(to right, #2563eb, #1d4ed8);
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
   color: white;
   padding: 1.5rem;
 }
@@ -268,7 +268,7 @@ body {
 }
 .save-btn {
   width: 100%;
-  background: linear-gradient(to right, #2563eb, #1d4ed8);
+  background: #009437;
   border: none;
   color: white;
   padding: 0.9rem;
@@ -279,7 +279,7 @@ body {
 }
 .save-btn:hover {
   transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(29, 78, 216, 0.3);
+  
 }
 
 /* Responsive */
@@ -323,7 +323,7 @@ body {
 }
 
 .highlight {
-  color: #0070f3;
+  color: #22c55e;
   font-weight: bold;
 }
 
@@ -350,7 +350,7 @@ body {
 
 .stat-card h3 {
   font-size: 2.1rem;
-  color: #0070f3;
+  color: #22c55e;
   margin-bottom: 0.5rem;
 }
 
@@ -392,6 +392,13 @@ body {
   height: auto;
 }
 
+.features-header h2{
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip:text;
+  
+}
 .feature-card h4 {
   margin-bottom: 0.5rem;
   font-size: 1.35rem;
@@ -517,7 +524,7 @@ body {
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  background: linear-gradient(90deg,  #3b82f6, #8b5cf6);
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -717,7 +724,9 @@ body {
 
 .testimonials-header h2 {
   font-size: 2rem;
-  color: #1e293b;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 0.5rem;
 }
 
@@ -810,7 +819,9 @@ body {
 .faq-header h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #0a2540;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .faq-header p {

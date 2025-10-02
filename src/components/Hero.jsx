@@ -24,7 +24,7 @@ const Hero = () => {
     <section className="hero" id="home">
       {/* Left Text Section */}
       <div className="hero-text">
-        <h1>Protect Your Savings with Stability</h1>
+        <h1>Protect Your <span className="highlight">Savings</span> with <span className="highlight">Stability</span></h1>
         <p>
           Inflation and volatility can eat into your Naira savings. Switch to
           USDC and secure your money with stable value.

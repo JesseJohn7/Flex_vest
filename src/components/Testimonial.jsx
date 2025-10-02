@@ -58,7 +58,7 @@ const Testimonials = () => {
   return (
     <section className="testimonials-section" id="testimonials">
       <div className="testimonials-header">
-        <h2>Why Nigerians Love FlexVest</h2>
+        <h2>Why Nigerians Love Flex<span className="highlight">Vest</span> </h2>
         <p>
           Hear from people who are protecting their savings from Naira inflation 
           and securing their financial future.
