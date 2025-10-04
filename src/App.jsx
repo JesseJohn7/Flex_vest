@@ -5,7 +5,8 @@ import Features from './components/Features.jsx'
 import HowItWorks from './components/HowItWorks.jsx'
 import Testimonials from './components/Testimonial.jsx'
 import Faqs from './components/Faqs.jsx'
-import Team from './components/Team.jsx'
+
+
 
 
 function App() {

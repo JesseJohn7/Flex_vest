@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
+import solanaLogo from "../assets/Solana.png";
 
 const Hero = () => {
   const [rate, setRate] = useState(null);
@@ -24,7 +25,27 @@ const Hero = () => {
     <section className="hero" id="home">
       {/* Left Text Section */}
       <div className="hero-text">
-        <h1>Protect Your <span className="highlight">Savings</span> with <span className="highlight">Stability</span></h1>
+        {/* Launching Soon and Solana-Powered Labels */}
+        <div className="status-labels">
+          <span className="launching-soon">
+            <span className="green-circle"></span> Launching Soon
+          </span>
+          <span className="solana-powered"> 
+            Solana-Powered{" "}
+            <img
+              src={solanaLogo} // Replace with your local Solana logo path
+              alt="Solana Logo"
+              className="solana-logo"
+              width="16"
+              height="16"
+            />
+          </span>
+        </div>
+
+        <h1>
+          Protect Your <span className="highlight">Savings</span> with{" "}
+          <span className="highlight">Stability</span>
+        </h1>
         <p>
           Inflation and volatility can eat into your Naira savings. Switch to
           USDC and secure your money with stable value.
@@ -36,13 +57,25 @@ const Hero = () => {
         >
           Start Saving Now
           <motion.span
-            animate={{ x: [0, 6, 0] }} // move right and back
+            animate={{ x: [0, 6, 0] }}
             transition={{ repeat: Infinity, duration: 1.2 }}
           >
-          <ArrowRight size={20} />
-        </motion.span>
-      </motion.button>
+            <ArrowRight size={20} />
+          </motion.span>
+        </motion.button>
 
+        {/* Hero Features Section */}
+        <div className="hero-features">
+          <div className="feature-item">
+            <CheckCircle size={16} color="#00cc00" /> No bank account needed
+          </div>
+          <div className="feature-item">
+            <CheckCircle size={16} color="#00cc00" /> Low fees
+          </div>
+          <div className="feature-item">
+            <CheckCircle size={16} color="#00cc00" /> Instant transactions
+          </div>
+        </div>
       </div>
 
       {/* Right Exchange Card */}
@@ -108,4 +141,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
