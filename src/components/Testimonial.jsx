@@ -28,7 +28,7 @@ const testimonials = [
     id: 3,
     name: "salifud01",
     role: "We3 Writer",
-    text: "Totally agree, if you’re not saving on Flexvestyet, you’re missing out.",
+    text: "Totally agree, if you’re not saving on Flexvest yet, you’re missing out.",
     avatar: grace,
   },
   {

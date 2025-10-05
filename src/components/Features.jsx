@@ -144,7 +144,7 @@ const Features = () => {
             </p>
             <div className="cta-buttons">
               <a href="#" className="btn primary">Create Account</a>
-              <a href="#" className="btn secondary">Learn More</a>
+              <a href="https://x.com/Flex_vest" className="btn secondary">Learn More</a>
             </div>
           </div>
           <div className="cta-logo">

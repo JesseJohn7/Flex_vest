@@ -61,6 +61,11 @@ body {
   transition: 0.3s;
 }
 
+.nav-btn a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-btn:hover {
   color: #b1b1b1;
 }
@@ -1014,3 +1019,127 @@ body {
 }
 
 
+/* Footer.css */
+
+footer {
+  background: linear-gradient(to bottom, #ffffff, #f9fafb);
+  color: #1a1a1a;
+  padding: 2.5rem 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.footer-section h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #3b82f6;
+  margin-bottom: 1rem;
+}
+
+.footer-section h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #3b82f6;
+  margin-bottom: 1rem;
+}
+
+.footer-section p {
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  font-size: 0.875rem;
+  color: #4b5563;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #3b82f6;
+}
+
+.footer-section .social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-section .social-links a {
+  color: #4b5563;
+  transition: color 0.3s ease;
+}
+
+.footer-section .social-links a:hover {
+  color: #3b82f6;
+}
+
+.footer-section .contact-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #3b82f6;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-section .contact-link:hover {
+  color: #2563eb;
+}
+
+.footer-section .contact-link svg {
+  margin-right: 0.25rem;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0.25rem 0;
+}
+
+.footer-bottom a {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.footer-bottom p{
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr); /* Adjusted to 3 columns without newsletter */
+  }
+}

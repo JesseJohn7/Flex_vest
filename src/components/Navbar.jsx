@@ -23,14 +23,14 @@ const Navbar = () => {
         <li><a href="#how-it-works">How it Works</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#faqs">Faqs</a></li>
-        <li><a href="#team">Team</a></li>
-         <li className="mobile-btn">
-          <button className="nav-btn">Connect Wallet</button>
+        
+        <li className="mobile-btn">
+          <button className="nav-btn"> <a href="https://x.com/Flex_vest">Get Started</a></button>
         </li>
       </ul>
 
       {/* Button */}
-      <button className="nav-btn">Connect Wallet</button>
+    <button className="nav-btn"> <a href="https://x.com/Flex_vest">Get Started</a></button>
     </nav>
   );
 }

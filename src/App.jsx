@@ -5,6 +5,7 @@ import Features from './components/Features.jsx'
 import HowItWorks from './components/HowItWorks.jsx'
 import Testimonials from './components/Testimonial.jsx'
 import Faqs from './components/Faqs.jsx'
+import Footer from './components/Footer.jsx'
 
 
 
@@ -20,7 +21,7 @@ function App() {
       <HowItWorks />
       <Testimonials />
       <Faqs />
-      
+      <Footer />
     </>
   )
 }
