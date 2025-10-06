@@ -1,6 +1,6 @@
 import React from "react";
 import {Users,DollarSign,Smartphone,Lock,Target,Percent,Globe} from "lucide-react";
-import solanaImg from "../assets/solana.png"; // Ensure this path is correct
+import solanaImg from '../assets/solana.png'; // Ensure this path is correct
 
 class ErrorBoundary extends React.Component {
   state = { hasError: false };
