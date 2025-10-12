@@ -50,6 +50,7 @@ const Hero = () => {
           Inflation and volatility can eat into your Naira savings. Switch to
           USDC and secure your money with stable value.
         </p>
+        <a href="https://flourished-usability-875918.framer.app/">
         <motion.button
           className="cta-btn flex items-center gap-2"
           whileHover={{ scale: 1.05 }}
@@ -63,7 +64,7 @@ const Hero = () => {
             <ArrowRight size={20} />
           </motion.span>
         </motion.button>
-
+        </a>
         {/* Hero Features Section */}
         <div className="hero-features">
           <div className="feature-item">
@@ -132,7 +133,7 @@ const Hero = () => {
 
         <div className="card-footer">
           <button className="save-btn">
-            Start Saving in USDC →
+            <a href=""></a>Start Saving in USDC →
           </button>
         </div>
       </div>

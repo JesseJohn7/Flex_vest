@@ -57,7 +57,6 @@ const HowItWorks = () => {
           </div>
         ))}
       </div>
-
       {/* Step cards */}
       <div className="steps-cards">
         {steps.map((step) => (
@@ -77,11 +76,10 @@ const HowItWorks = () => {
           </div>
         ))}
       </div>
-
       {/* CTA */}
       <div className="works-cta">
         <button className="cta-btn">
-          Get Started Now <span className="arrow-animate"><ArrowRight size={18} /></span>
+        <a href="https://flourished-usability-875918.framer.app/">Get Started Now</a> <span className="arrow-animate"><ArrowRight size={18} /></span>
         </button>
         <p className="helper-text">
           No technical knowledge required. We’ll guide you through each step.

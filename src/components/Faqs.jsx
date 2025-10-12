@@ -44,7 +44,7 @@ return (
         <p>
         Everything you need to know about saving with{" "}
         <span className="brand">FlexVest</span>. Can’t find what you’re looking for?{" "}
-        <a href="#" className="contact-link">Contact our team</a>.
+        <a href="https://x.com/Jesse_can_code" className="contact-link">Contact our team</a>.
         </p>
     </div>
 
@@ -63,7 +63,7 @@ return (
                 <Plus size={22} className="icon plus" />
             )}
             </div>
-
+            
             <AnimatePresence>
               {activeIndex === i && (
                 <motion.div

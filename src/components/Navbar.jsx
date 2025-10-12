@@ -25,12 +25,12 @@ const Navbar = () => {
         <li><a href="#faqs">Faqs</a></li>
         
         <li className="mobile-btn">
-          <button className="nav-btn"> <a href="https://x.com/Flex_vest">Get Started</a></button>
+          <button className="nav-btn"> <a href="https://flourished-usability-875918.framer.app/">Join Waitlist</a></button>
         </li>
       </ul>
 
       {/* Button */}
-    <button className="nav-btn"> <a href="https://x.com/Flex_vest">Get Started</a></button>
+    <button className="nav-btn"> <a href="https://flourished-usability-875918.framer.app/">Join Waitlist</a></button>
     </nav>
   );
 }

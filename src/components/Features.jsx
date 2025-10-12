@@ -143,7 +143,7 @@ const Features = () => {
               dollars with <span className="brand">FlexVest</span>.
             </p>
             <div className="cta-buttons">
-              <a href="#" className="btn primary">Create Account</a>
+              <a href="https://flourished-usability-875918.framer.app/" className="btn primary">Join Waitlist</a>
               <a href="https://x.com/Flex_vest" className="btn secondary">Learn More</a>
             </div>
           </div>
