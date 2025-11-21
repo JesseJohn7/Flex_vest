@@ -9,7 +9,7 @@ return (
         {/* Company Info */}
         <div className="footer-section">
         <h3>FlexVest</h3>
-        <p>Empowering Nigerians to save in USDC and beat inflation and Excessive bank charges with Solana speed.</p>
+        <p>Empowering Nigerians to save in USDC and beat inflation and Excessive banks charges with Solana speed.</p>
         <div className="social-links">
             
             <a href="https://x.com/Flex_vest" target="_blank" rel="noopener noreferrer">
