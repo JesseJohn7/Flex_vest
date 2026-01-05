@@ -117,7 +117,7 @@ const Hero = () => {
           <h4>Your 1-Year Savings Projection</h4>
           <div className="mini-card">
             <div className="mini-row">
-              <span>₦100,000 in Naira</span>
+              <span>₦1000,000 in Naira</span>
               <span className="volatile">-22% value</span>
             </div>
             <div className="progress red small"></div>
